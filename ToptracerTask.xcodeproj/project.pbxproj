@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F2E937DE283D399400991C89 /* ToptracerTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937DD283D399400991C89 /* ToptracerTaskApp.swift */; };
-		F2E937E0283D399400991C89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937DF283D399400991C89 /* ContentView.swift */; };
+		F2E937E0283D399400991C89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937DF283D399400991C89 /* MainView.swift */; };
 		F2E937E2283D399500991C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E937E1283D399500991C89 /* Assets.xcassets */; };
 		F2E937E5283D399500991C89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E937E4283D399500991C89 /* Preview Assets.xcassets */; };
+		F2E937EC283D3E9400991C89 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937EB283D3E9400991C89 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2E937DA283D399400991C89 /* ToptracerTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToptracerTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E937DD283D399400991C89 /* ToptracerTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToptracerTaskApp.swift; sourceTree = "<group>"; };
-		F2E937DF283D399400991C89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2E937DF283D399400991C89 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F2E937E1283D399500991C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E937E4283D399500991C89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2E937EB283D3E9400991C89 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				F2E937DD283D399400991C89 /* ToptracerTaskApp.swift */,
-				F2E937DF283D399400991C89 /* ContentView.swift */,
+				F2E937DF283D399400991C89 /* MainView.swift */,
+				F2E937EB283D3E9400991C89 /* DetailsView.swift */,
 				F2E937E1283D399500991C89 /* Assets.xcassets */,
 				F2E937E3283D399500991C89 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E937E0283D399400991C89 /* ContentView.swift in Sources */,
+				F2E937E0283D399400991C89 /* MainView.swift in Sources */,
+				F2E937EC283D3E9400991C89 /* DetailsView.swift in Sources */,
 				F2E937DE283D399400991C89 /* ToptracerTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
