@@ -12,6 +12,8 @@
 		F2E937E2283D399500991C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E937E1283D399500991C89 /* Assets.xcassets */; };
 		F2E937E5283D399500991C89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E937E4283D399500991C89 /* Preview Assets.xcassets */; };
 		F2E937EC283D3E9400991C89 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937EB283D3E9400991C89 /* DetailsView.swift */; };
+		F2E937F0283D43B600991C89 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937EF283D43B600991C89 /* User.swift */; };
+		F2E937F3283D43C700991C89 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E937F2283D43C700991C89 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F2E937E1283D399500991C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E937E4283D399500991C89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2E937EB283D3E9400991C89 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		F2E937EF283D43B600991C89 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2E937F2283D43C700991C89 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,10 @@
 		F2E937DC283D399400991C89 /* ToptracerTask */ = {
 			isa = PBXGroup;
 			children = (
+				F2E937F1283D43BF00991C89 /* Network */,
+				F2E937EE283D43AD00991C89 /* Models */,
+				F2E937ED283D43A600991C89 /* Views */,
 				F2E937DD283D399400991C89 /* ToptracerTaskApp.swift */,
-				F2E937DF283D399400991C89 /* MainView.swift */,
-				F2E937EB283D3E9400991C89 /* DetailsView.swift */,
 				F2E937E1283D399500991C89 /* Assets.xcassets */,
 				F2E937E3283D399500991C89 /* Preview Content */,
 			);
@@ -68,6 +73,31 @@
 				F2E937E4283D399500991C89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2E937ED283D43A600991C89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2E937DF283D399400991C89 /* MainView.swift */,
+				F2E937EB283D3E9400991C89 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2E937EE283D43AD00991C89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2E937EF283D43B600991C89 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2E937F1283D43BF00991C89 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F2E937F2283D43C700991C89 /* Service.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E937F3283D43C700991C89 /* Service.swift in Sources */,
+				F2E937F0283D43B600991C89 /* User.swift in Sources */,
 				F2E937E0283D399400991C89 /* MainView.swift in Sources */,
 				F2E937EC283D3E9400991C89 /* DetailsView.swift in Sources */,
 				F2E937DE283D399400991C89 /* ToptracerTaskApp.swift in Sources */,

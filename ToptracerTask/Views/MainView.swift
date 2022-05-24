@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-struct User {
-    var username: String = ""
-    var password: String = ""
-}
-
 struct MainView: View {
     @State var user = User()
     
